@@ -15,8 +15,22 @@ header{
 }
 .jumbo{
    background-image: url(./img/jumbo-bg.png);
-  padding: 17em 0 5em;
+    padding: 17em 60em 8em 2em;
     width: 100%;
-    margin-top: 100px;
-   
+    margin-top: 100px;  
+}
+.col{
+    
+}
+h6{
+    margin-top: 3%;
+    color: grey;
+}
+.wrapper{
+    padding-left:30%;
+    width: 40%;
+}
+.wrapper-text{
+    width: 50%;
+   margin-top:30px;
 }
