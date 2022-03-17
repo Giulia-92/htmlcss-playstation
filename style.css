@@ -1,0 +1,22 @@
+
+debug{
+    border: 2px solid rgb(97, 90, 90);
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header-top{
+    width: 100%;
+    background-color: black;
+    padding-left: 90%;
+}
+.jumbo{
+   background-image: url(./img/jumbo-bg.png);
+  padding: 17em 0 5em;
+    width: 100%;
+    margin-top: 100px;
+   
+}
