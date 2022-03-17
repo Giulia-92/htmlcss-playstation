@@ -46,3 +46,11 @@ background-color: rgba(8, 8, 8, 0.897);
     background-color:grey;
     padding: 8em 60em 8em 4em; 
 }
+.playstation-now{
+    background-color: rgba(5, 4, 70, 0.897);
+    padding: 8em 1em 8em 5em; 
+}
+.row-social{
+padding-left: 20%;
+display: flex;
+}
