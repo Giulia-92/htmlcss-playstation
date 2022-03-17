@@ -35,3 +35,14 @@ h6{
 .row{
     align-items: center;
 }
+.takes-two{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    padding: 8em 60em 8em 4em;   
+}
+.nuove-uscite{
+background-color: rgba(8, 8, 8, 0.897);
+}
+.playstation-plus{
+    background-color:grey;
+    padding: 8em 60em 8em 4em; 
+}
