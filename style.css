@@ -77,6 +77,10 @@ a{
 a:hover{
     text-decoration: underline;
    color:rgb(134, 190, 3);
+   
+}
+a .btn:hover{
+    transition:2s ;
 }
 .accessori{
 
