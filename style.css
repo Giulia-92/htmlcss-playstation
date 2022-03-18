@@ -17,6 +17,32 @@ header{
     width: 100%;
     margin-top: 100px;  
 }
+/*.overlay{
+    width:100%;
+    height: 3px;
+    border:2px solid rgb(35, 73, 197);
+    background-color:rgb(20, 20, 207); 
+    border-radius:20%;
+    visibility: hidden;    
+}*/
+
+.overlay:hover{
+    width:100%;
+    height: 3px;
+    border:2px solid rgb(35, 73, 197);
+    background-color:rgb(20, 20, 207); 
+    border-radius:20%;
+    opacity: 1;
+   
+}
+.card:hover{
+    border: 2px solid rgb(49, 49, 233);
+    box-shadow: 4px 4px 4px 4px rgb(71, 70, 70); 
+    opacity: 1;
+}
+.card{
+    opacity:0.8;
+}
 
 h6{
    
@@ -75,15 +101,13 @@ a{
     text-decoration: none;
 }
 a:hover{
+    
     text-decoration: underline;
-   color:rgb(134, 190, 3);
+  
    
 }
 a .btn:hover{
     transition:2s ;
-}
-.accessori{
-
 }
 
 footer{
@@ -91,15 +115,16 @@ footer{
     width: 100%;
     padding-top: 20px;  
 }
-.row-footer{
+/*.row-footer{
     margin-left:70%;  
     color: white; 
     margin-top:4em;
     padding-top: 20px;
     width: 30%;
-}
+}*/
 
 .text{
     font-size:1em;
-    padding-top: 2em;
+    padding-top: 2%;
+    text-align:start;
 }
