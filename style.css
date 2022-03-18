@@ -24,7 +24,7 @@ h6{
     margin-top: 3%;
     color: grey;
 }
-.wrapper{
+/*.wrapper{
     padding-left:30%;
     width: 40%;
 }
@@ -33,8 +33,8 @@ h6{
    margin-top:30px;
 }
 .row{
-    align-items: center;
-}
+    /*align-items: center;*/
+
 .takes-two{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     padding: 8em 60em 8em 4em;   
@@ -48,9 +48,42 @@ background-color: rgba(8, 8, 8, 0.897);
 }
 .playstation-now{
     background-color: rgba(5, 4, 70, 0.897);
-    padding: 8em 1em 8em 5em; 
+    padding: 18em 8em 8em 5em; 
+    
 }
-.row-social{
-padding-left: 20%;
-display: flex;
+/*.rowtext-white my-6{
+    line-height: 20px;
+}*/
+.pplus-text{
+    color: white;
+    line-height:8em;
+    margin-top:6em;
+    padding:8px 10px 8px 4px; 
+}
+.p-text{
+    width: 40%;
+    color: white;
+    line-height:8em;
+    margin-top:6em;
+    padding:8px 10px 8px 4px;
+}
+.p-img{
+    margin-left:28em;
+   margin-top: -35em;
+   margin-bottom: -8em;
+   
+    
+    
+    
+}
+
+footer{
+   background-color:rgb(25, 65, 247);
+    width: 100%;
+    padding-top: 20px;  
+}
+
+.text{
+    font-size:1em;
+    padding-top: 2em;
 }
