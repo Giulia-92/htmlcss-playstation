@@ -10,16 +10,17 @@ header{
     left: 0;
 }
 .header-top{
-    width: 100%;
+    
     background-color: black;
-    padding-left: 90%;
+    
 }
 .jumbo{
    background-image: url(./img/jumbo-bg.png);
    background-repeat: no-repeat;
-    padding: 17em 60em 8em 2em;
     width: 100%;
-    margin-top: 100px;  
+    margin-top: 100px; 
+    height: 400px;
+     
 }
 /*.overlay{
     width:100%;
@@ -43,6 +44,8 @@ header{
     border: 2px solid rgb(49, 49, 233);
     box-shadow: 4px 4px 4px 4px rgb(71, 70, 70); 
     opacity: 1;
+    
+    transition:1s;
 }
 .card{
     opacity:0.8;
@@ -52,6 +55,9 @@ h6{
    
     margin-top: 3%;
     
+}
+.col{
+    text-align: center;
 }
 /*.wrapper{
     padding-left:30%;
@@ -67,28 +73,28 @@ h6{
 .takes-two{
     background-repeat: no-repeat;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
-    padding: 8em 60em 8em 4em;   
+       
 }
 .nuove-uscite{
 background-color: rgba(8, 8, 8, 0.897);
 }
 .playstation-plus{
     background-color:grey;
-    padding: 8em 60em 8em 4em; 
+     
 }
 .playstation-now{
     background-color: rgba(5, 4, 70, 0.897);
-    padding: 18em 8em 8em 5em;  
+      
 }
 /*.rowtext-white my-6{
     line-height: 20px;
-}*/
+}
 .pplus-text{
     color: white;
     line-height:8em;
     margin-top:6em;
     padding:8px 10px 8px 4px; 
-}
+}*/
 .p-text{
     width: 40%;
     color: white;
@@ -97,9 +103,7 @@ background-color: rgba(8, 8, 8, 0.897);
     padding:8px 10px 8px 4px;
 }
 .p-img{
-   margin-left:25em;
-   margin-top: -35em;
-   margin-bottom: -8em;   
+   margin-left: 20px;
 }
 a{
     color: rgb(0, 0, 0);
@@ -129,8 +133,8 @@ footer{
 
 
 @media screen and (max-width:576px){
-    header{
-        text-align: center;
+    .header-top{
+        align-items: center;
     }
 }
 
