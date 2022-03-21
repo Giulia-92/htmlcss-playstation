@@ -1,5 +1,8 @@
 
-
+.lens{
+    vertical-align: middle;
+    padding: 3px 3px 3px 20px;
+}
 header{
     width: 100%;
     position: fixed;
@@ -13,6 +16,7 @@ header{
 }
 .jumbo{
    background-image: url(./img/jumbo-bg.png);
+   background-repeat: no-repeat;
     padding: 17em 60em 8em 2em;
     width: 100%;
     margin-top: 100px;  
@@ -61,6 +65,7 @@ h6{
     /*align-items: center;*/
 
 .takes-two{
+    background-repeat: no-repeat;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     padding: 8em 60em 8em 4em;   
 }
@@ -92,7 +97,7 @@ background-color: rgba(8, 8, 8, 0.897);
     padding:8px 10px 8px 4px;
 }
 .p-img{
-   margin-left:28em;
+   margin-left:25em;
    margin-top: -35em;
    margin-bottom: -8em;   
 }
@@ -101,30 +106,39 @@ a{
     text-decoration: none;
 }
 a:hover{
-    
-    text-decoration: underline;
-  
-   
+       text-decoration: underline; 
 }
 a .btn:hover{
     transition:2s ;
 }
+
 
 footer{
    background-color:rgb(25, 65, 247);
     width: 100%;
     padding-top: 20px;  
 }
-/*.row-footer{
-    margin-left:70%;  
-    color: white; 
-    margin-top:4em;
-    padding-top: 20px;
-    width: 30%;
-}*/
+
 
 .text{
     font-size:1em;
     padding-top: 2%;
     text-align:start;
+}
+
+
+
+@media screen and (max-width:576px){
+    header{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .container{
+        text-align: center;
+    }
+    .p-img{
+        justify-content: center;
+    }
 }
